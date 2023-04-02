@@ -1,0 +1,11 @@
+---
+import { SidebarLinks } from '../../config';
+import SidebarButton from './Sidebar/SidebarButton';
+---
+
+<sidebar class="w-1/6 h-[100vh] bg-zinc-900 relative py-6 px-2">
+    <!-- Links -->
+    { SidebarLinks.map((link) => (
+        <SidebarButton {...link} />
+    ))}
+</sidebar>
