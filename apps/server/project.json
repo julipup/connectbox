@@ -9,7 +9,10 @@
         "options": {
             "command": ". venv/bin/activate && flask run --debug",
             "cwd": "apps/server"
-        }
+        },
+        "dependsOn": [
+          "templates:build"
+        ]
       }
     },
     "tags": []

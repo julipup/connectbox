@@ -13,7 +13,11 @@
           "python3 clear_static_folder.py",
           "python3 transform_templates.py"
         ],
-        "parallel": false
+        "parallel": false,
+        "outputPath": [
+          "apps/server/templates",
+          "apps/server/static"
+        ]
       }
     },
     "build-astro": {

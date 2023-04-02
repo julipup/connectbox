@@ -32,9 +32,7 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e", "check"]
-      }
+      "options": {}
     }
   },
   "defaultProject": "templates"
