@@ -1,0 +1,4 @@
+*
+!.gitignore
+!transform_templates.py
+!clear_static_folder.py
